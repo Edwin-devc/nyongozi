@@ -1,0 +1,21 @@
+* {
+    font-family: SansSerif;
+}
+.form-control {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #096A2E;
+}

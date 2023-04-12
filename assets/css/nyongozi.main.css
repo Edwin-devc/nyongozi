@@ -1,0 +1,62 @@
+/*general*/
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #096A2E;
+    box-shadow: none;
+}
+.bg-success {
+    background-color: #096A2E !important;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 88px;
+}
+.scale-1 {
+    transform: scale(.9);
+    transition: transform .3s;
+}
+.scale-1:hover {
+    transform: scale(1);
+}
+/*navigation bar*/
+.navbar {
+    background: #fff !important;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+}
+.search-bar {
+    width: 225px !important;
+}
+.btn-register, .btn-sign-in {
+    font-family: 'poppins';
+    font-size: small;
+}
+/*side bar*/
+.main-menu a {
+    font-size: small;
+}
+.main-menu a:hover{
+    color: #096A2E !important;
+}
+.img-menu {
+    height: 360px;
+    width: 100% !important;
+}
+/*footer*/
+.footer {
+    background-color: rgb(40, 40, 40);
+    /*background-color: #000000;*/
+}
+.footer a {
+    font-size: small;
+    color: #fff !important;
+}
+.footer a:hover{
+    color: #096A2E !important;
+}
