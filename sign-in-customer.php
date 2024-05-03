@@ -15,18 +15,18 @@
         <!-- log in form -->
 
         <div class="card p-4 bg-light border-0">
-            <form action="" method="POST">
+            <form action="login.php" method="POST">
                 <div class="form-group mb-2">
                     <label for="email" class="form-label">Email</label>
-                    <input class="form-control form-control-sm" type="email" placeholder="email address" required />
+                    <input class="form-control form-control-sm" name="email" type="email" placeholder="email address" required />
                 </div>
                 <div class="form-group mb-2">
                     <label for="password" class="form-label">Password</label>
-                    <input class="form-control form-control-sm " type="password" placeholder="password" required />
+                    <input class="form-control form-control-sm " name="password" type="password" placeholder="password" required />
                 </div>
                 <div class="pt-3">
                     <input type="reset" class="btn btn-secondary btn-sm me-2" value="cancel">
-                    <input type="submit" class="btn btn-success btn-sm" value="sign in">
+                    <input type="submit" name="submit" class="btn btn-success btn-sm" value="sign in">
                 </div>
             </form>
             <div class="mt-2">
@@ -40,7 +40,7 @@
     </div>
 </section>
 <footer class="text-center mt-2 bg-light py-2">
-    <p>Copyright © 2022 nyongozi. All Rights Reserved.</p>
+    <p>Copyright © 2024 nyongozi. All Rights Reserved.</p>
 </footer>
 <!-- bootstrap js script -->
 <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
